@@ -1,3 +1,6 @@
+# for project
+.env
+
 # Miscellaneous
 *.class
 *.log

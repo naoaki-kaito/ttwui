@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:ttwui/components/app_color.dart';
 
-
 class TweetItem extends StatefulWidget {
-
   const TweetItem() : super();
 
   @override
@@ -13,7 +11,6 @@ class TweetItem extends StatefulWidget {
 }
 
 class _TweetItem extends State<TweetItem> {
-
   @override
   Widget build(BuildContext context) {
     return Column(children: <Widget>[
