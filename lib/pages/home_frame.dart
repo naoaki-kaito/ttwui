@@ -30,10 +30,8 @@ class _HomeState extends State<HomeFrame> {
                   Icon(Icons.chat_bubble_outline, color: AppColor.leading)),
           BottomNavigationBarItem(
               title: SizedBox(),
-              icon: Text('@',
-                  style: TextStyle(fontSize: 24, color: AppColor.leading)),
-              activeIcon: Text('@',
-                  style: TextStyle(fontSize: 24, color: AppColor.leading))),
+              icon: Icon(Icons.alternate_email, color: AppColor.leading),
+              activeIcon: Icon(Icons.alternate_email, color: AppColor.leading)),
           BottomNavigationBarItem(
               title: SizedBox(),
               icon: Icon(Icons.format_align_justify, color: AppColor.leading),

@@ -71,6 +71,46 @@ class _TweetDetailState extends State<TweetDetail> {
                 ],
               ),
             ),
+            Divider(
+              height: 1,
+              color: AppColor.primary,
+            ),
+            Padding(
+              padding: EdgeInsets.all(20),
+              child: Row(children: <Widget>[
+                Text('8', style: TextStyle(fontWeight: FontWeight.w600)),
+                Text('リツイート'),
+                SizedBox(
+                  width: 20,
+                ),
+                Text('10', style: TextStyle(fontWeight: FontWeight.w600)),
+                Text('いいね'),
+              ]),
+            ),
+            Divider(
+              height: 1,
+              color: AppColor.primary,
+            ),
+            Padding(
+              padding: EdgeInsets.all(20),
+              child: Row(children: <Widget>[
+                Expanded(
+                    child: Icon(Icons.chat_bubble_outline,
+                        color: AppColor.primary)),
+                Expanded(
+                    child:
+                        Icon(Icons.alternate_email, color: AppColor.primary)),
+                Expanded(
+                    child:
+                        Icon(Icons.favorite_border, color: AppColor.primary)),
+                Expanded(
+                    child: Icon(Icons.open_in_new, color: AppColor.primary)),
+              ]),
+            ),
+            Divider(
+              height: 1,
+              color: AppColor.primary,
+            ),
           ],
         ));
   }
