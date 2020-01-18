@@ -25,22 +25,22 @@ class _HomeState extends State<HomeFrame> {
         items: <BottomNavigationBarItem>[
           BottomNavigationBarItem(
               title: SizedBox(),
-              icon: Icon(Icons.chat_bubble_outline, color: AppColor.leading),
+              icon: Icon(Icons.chat_bubble_outline, color: Colors.white),
               activeIcon:
-                  Icon(Icons.chat_bubble_outline, color: AppColor.leading)),
+                  Icon(Icons.chat_bubble_outline, color: Colors.white)),
           BottomNavigationBarItem(
               title: SizedBox(),
-              icon: Icon(Icons.alternate_email, color: AppColor.leading),
-              activeIcon: Icon(Icons.alternate_email, color: AppColor.leading)),
+              icon: Icon(Icons.alternate_email, color: Colors.white),
+              activeIcon: Icon(Icons.alternate_email, color: Colors.white)),
           BottomNavigationBarItem(
               title: SizedBox(),
-              icon: Icon(Icons.format_align_justify, color: AppColor.leading),
+              icon: Icon(Icons.format_align_justify, color: Colors.white),
               activeIcon:
-                  Icon(Icons.format_align_justify, color: AppColor.leading)),
+                  Icon(Icons.format_align_justify, color: Colors.white)),
           BottomNavigationBarItem(
               title: SizedBox(),
-              icon: Icon(Icons.mail_outline, color: AppColor.leading),
-              activeIcon: Icon(Icons.mail_outline, color: AppColor.leading)),
+              icon: Icon(Icons.mail_outline, color: Colors.white),
+              activeIcon: Icon(Icons.mail_outline, color: Colors.white)),
         ],
       ),
     );

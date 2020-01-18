@@ -19,9 +19,10 @@ class _TweetIndexState extends State<TweetIndex> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: AppColor.primary,
       appBar: AppBar(
         centerTitle: true,
-        title: Text('Feeds', style: TextStyle(color: AppColor.leading)),
+        title: Text('Feeds', style: TextStyle(color: Colors.white)),
         leading: null,
         automaticallyImplyLeading: false,
       ),
